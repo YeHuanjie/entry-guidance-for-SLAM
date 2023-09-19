@@ -8,3 +8,4 @@
 为了实现以上两个功能，需要通过传感器来收集数据，并据此进行推算。常用的传感器有激光雷达、相机、轮式里程计（Odometry，Odom）、惯性测量单元（Inertial Measurement Unit，IMU）。
 
 SLAM系统的常用框架如下所示，包括传感器数据、前端、后端、回环检测、建图。
+![SLAM FRAMEWORK](./images/SLAM_FRAMEWORK.png)
