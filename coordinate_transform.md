@@ -131,4 +131,6 @@ cos\theta & sin\theta & - t_1 cos\theta - t_2 sin\theta \\
 0 & 0 & 1 \\
 \end{matrix}\right] \\
 $$
+
+
 所以坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 需要平移$t_1$和$t_2$，逆时针旋转$\theta$时，只需建立对应参数的转换矩阵，再求逆即可。
