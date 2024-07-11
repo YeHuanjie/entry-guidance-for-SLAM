@@ -2,23 +2,33 @@
 
 ![](./images/coordinates.png)
 
-坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 转换矩阵$T^{o_2}_{o_1}$的推导和记忆方法
+坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 转换矩阵 $T^{o_2}_{o_1}$ 的推导和记忆方法
 
 ## 推导
 
 已知
+
+
 $$
 o_1m=t_1\\
 o_1n=o_2m=t_2\\
 o_1a=x\\
 o_1b=ap=y
 $$
+
+
 求
+
+
 $$
 o_2c=pd=x'\\
 o_2d=cp=y'
 $$
+
+
 可得
+
+
 $$
 o_1e=xcos\theta\\
 ae=qf=xsin\theta\\
@@ -31,7 +41,11 @@ al=pj=ysin\theta\\
 mq=mf-qf=t_1sin\theta-xsin\theta\\
 jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
 $$
+
+
 求得
+
+
 $$
 y'=gk=mk-mg=qk+mq-mg=ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta\\
 x'=pd=pj-jk-kd=ysin\theta-(t_1cos\theta-xcos\theta)-t_2sin\theta
