@@ -11,8 +11,11 @@
 
 $$
 o_1m=t_1\\
+
 o_1n=o_2m=t_2\\
+
 o_1a=x\\
+
 o_1b=ap=y
 $$
 
@@ -22,6 +25,7 @@ $$
 
 $$
 o_2c=pd=x'\\
+
 o_2d=cp=y'
 $$
 
@@ -31,15 +35,25 @@ $$
 
 $$
 o_1e=xcos\theta\\
+
 ae=qf=xsin\theta\\
+
 mf=t_1sin\theta\\
+
 o_1f=t_1cos\theta\\
+
 gm=t_2cos\theta\\
+
 o_2g=kd=t_2sin\theta\\
+
 pl=qk=ycos\theta\\
+
 al=pj=ysin\theta\\
+
 mq=mf-qf=t_1sin\theta-xsin\theta\\
+
 jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
+
 $$
 
 
@@ -50,7 +64,10 @@ $$
 y'=gk=mk-mg=qk+mq-mg=ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta\\
 x'=pd=pj-jk-kd=ysin\theta-(t_1cos\theta-xcos\theta)-t_2sin\theta
 $$
+
 表示为矩阵形式
+
+
 $$
 \left[\begin{matrix}
 x'\\ y' \\ 1
@@ -66,7 +83,9 @@ cos\theta & sin\theta & -t_1cos\theta-t_2sin\theta\\
 x\\ y \\ 1
 \end{matrix}\right]
 $$
+
 即
+
 $$
 T^{o_2}_{o_1}=
 
@@ -79,9 +98,10 @@ $$
 
 ## 记忆法
 
-坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 转换矩阵$T^{o_2}_{o_1}$看着很复杂，其实非常好记。
+坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 转换矩阵 $T^{o_2}_{o_1}$ 看着很复杂，其实非常好记。
 
-坐标系 $o_2x_2y_2$ 转换到坐标系 $o_1x_1y_1$ 转换矩阵$T^{o_1}_{o_2}$为：
+坐标系 $o_2x_2y_2$ 转换到坐标系 $o_1x_1y_1$ 转换矩阵 $T^{o_1}_{o_2}$ 为：
+
 $$
 T^{o_1}_{o_2}=
 
@@ -91,7 +111,9 @@ sin\theta & cos\theta & t_2 \\
 0 & 0 & 1
 \end{matrix}\right]
 $$
+
 转换矩阵的逆为
+
 $$
 T^{o_2}_{o_1}=(T^{o_1}_{o_2})^{-1}=
 
@@ -112,7 +134,9 @@ t_1\\
 t_2\\
 \end{matrix}\right] \\
 $$
+
 简单矩阵运算即可求得
+
 $$
 R^{T} =
 \left[\begin{matrix}
@@ -147,4 +171,4 @@ cos\theta & sin\theta & - t_1 cos\theta - t_2 sin\theta \\
 $$
 
 
-所以坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 需要平移$t_1$和$t_2$，逆时针旋转$\theta$时，只需建立对应参数的转换矩阵，再求逆即可。
+所以坐标系 $o_1x_1y_1$ 转换到坐标系 $o_2x_2y_2$ 需要平移 $t_1$ 和 $t_2$ ，逆时针旋转 $\theta$ 时，只需建立对应参数的转换矩阵，再求逆即可。
