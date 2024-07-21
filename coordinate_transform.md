@@ -47,25 +47,21 @@ $$
 
 $$
 \begin{align}
-y'=gk=mk-mg=qk+mq-mg=ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta \\
-x'=pd=pj-jk-kd=ysin\theta-(t_1cos\theta-xcos\theta)-t_2sin\theta
+y' = gk = mk-mg = qk+mq-mg &= ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta \\
+x' = pd = pj-jk-kd &= ysin\theta-(t_1cos\theta-xcos\theta)-t_2sin\theta
 \end{align}
 $$
 
 表示为矩阵形式
 
-
 $$
 \left[\begin{matrix}
 x' \\ y' \\ 1
-\end{matrix}\right] =
-
-\left[\begin{matrix}
+\end{matrix}\right] = \left[\begin{matrix}
 cos\theta & sin\theta & -t_1cos\theta-t_2sin\theta \\
 -sin\theta & cos\theta & t_1sin\theta-t_2cos\theta \\
 0 & 0 & 1
 \end{matrix}\right] 
-
 \left[\begin{matrix}
 x\\ y \\ 1
 \end{matrix}\right]
