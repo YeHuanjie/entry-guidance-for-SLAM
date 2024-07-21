@@ -9,27 +9,27 @@
 已知
 
 $$
-\begin{align*}
+\begin{align}
 o_1m = t_1 \\
 o_1n = o_2m = t_2 \\
 o_1a = x \\
 o_1b = ap = y \\
-\end{align*}
+\end{align}
 $$
 
 求
 
 $$
-\begin{align*}
+\begin{align}
 o_2c=pd=x' \\
 o_2d=cp=y'
-\end{align*}
+\end{align}
 $$
 
 可得
 
 $$
-\begin{align*}
+\begin{align}
 o_1e=xcos\theta \\
 ae=qf=xsin\theta \\
 mf=t_1sin\theta \\
@@ -40,7 +40,7 @@ pl=qk=ycos\theta \\
 al=pj=ysin\theta \\
 mq=mf-qf=t_1sin\theta-xsin\theta \\
 jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
-\end{align*}
+\end{align}
 $$
 
 求得
