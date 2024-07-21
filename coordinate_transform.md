@@ -30,24 +30,26 @@ $$
 
 $$
 \begin{align}
-o_1e=xcos\theta \\
-ae=qf=xsin\theta \\
-mf=t_1sin\theta \\
-o_1f=t_1cos\theta \\
-gm=t_2cos\theta \\
-o_2g=kd=t_2sin\theta \\
-pl=qk=ycos\theta \\
-al=pj=ysin\theta \\
-mq=mf-qf=t_1sin\theta-xsin\theta \\
-jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
+o_1e&=xcos\theta \\
+ae=qf&=xsin\theta \\
+mf&=t_1sin\theta \\
+o_1f&=t_1cos\theta \\
+gm&=t_2cos\theta \\
+o_2g=kd&=t_2sin\theta \\
+pl=qk&=ycos\theta \\
+al=pj&=ysin\theta \\
+mq=mf-qf &= t_1sin\theta-xsin\theta \\
+jk=ef=o_1f-o_1e &= t_1cos\theta-xcos\theta
 \end{align}
 $$
 
 求得
 
 $$
-y'=gk=mk-mg=qk+mq-mg=ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta\\
+\begin{align}
+y'=gk=mk-mg=qk+mq-mg=ycos\theta+(t_1sin\theta-xsin\theta)-t_2cos\theta \\
 x'=pd=pj-jk-kd=ysin\theta-(t_1cos\theta-xcos\theta)-t_2sin\theta
+\end{align}
 $$
 
 表示为矩阵形式
