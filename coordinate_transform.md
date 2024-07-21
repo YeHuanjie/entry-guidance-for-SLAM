@@ -9,32 +9,38 @@
 已知
 
 $$
-o_1m=t_1, \\\\
-o_1n=o_2m=t_2, \\\\
-o_1a=x, \\\\
-o_1b=ap=y
+\begin{align*}
+& o_1m=t_1 \\
+& o_1n=o_2m=t_2 \\
+& o_1a=x \\
+& o_1b=ap=y \\
+\end{align*}
 $$
 
 求
 
 $$
-o_2c=pd=x', \\
-o_2d=cp=y'
+\begin{align*}
+& o_2c=pd=x' \\
+& o_2d=cp=y'
+\end{align*}
 $$
 
 可得
 
 $$
-o_1e=xcos\theta \\
-ae=qf=xsin\theta \\
-mf=t_1sin\theta \\
-o_1f=t_1cos\theta \\
-gm=t_2cos\theta \\
-o_2g=kd=t_2sin\theta \\
-pl=qk=ycos\theta \\
-al=pj=ysin\theta \\
-mq=mf-qf=t_1sin\theta-xsin\theta \\
-jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
+\begin{align*}
+& o_1e=xcos\theta \\
+& ae=qf=xsin\theta \\
+& mf=t_1sin\theta \\
+& o_1f=t_1cos\theta \\
+& gm=t_2cos\theta \\
+& o_2g=kd=t_2sin\theta \\
+& pl=qk=ycos\theta \\
+& al=pj=ysin\theta \\
+& mq=mf-qf=t_1sin\theta-xsin\theta \\
+& jk=ef=o_1f-o_1e=t_1cos\theta-xcos\theta
+\end{align*}
 $$
 
 求得
