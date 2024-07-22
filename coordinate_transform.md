@@ -56,15 +56,15 @@ $$
 
 $$
 \left[\begin{matrix}
-x' \\ y' \\ 1
-\end{matrix}\right] = \left[\begin{matrix}
+x' & y' & 1
+\end{matrix}\right]^{T} = \left[\begin{matrix}
 cos\theta & sin\theta & -t_1cos\theta-t_2sin\theta \\
 -sin\theta & cos\theta & t_1sin\theta-t_2cos\theta \\
 0 & 0 & 1
-\end{matrix}\right] 
-\left[\begin{matrix}
-x\\ y \\ 1
 \end{matrix}\right]
+\left[\begin{matrix}
+x & y & 1
+\end{matrix}\right]^{T}
 $$
 
 即
