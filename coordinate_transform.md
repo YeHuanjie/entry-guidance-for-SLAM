@@ -96,24 +96,25 @@ $$
 转换矩阵的逆为
 
 $$
-T^{o_2}_{o_1}=(T^{o_1}_{o_2})^{-1}=
-
-\left[\begin{matrix}
+T^{o_2}_{o_1} = (T^{o_1}_{o_2})^{-1}= \left[\begin{matrix}
 R^{T} & -R^{T}t \\
 0 & 1
-\end{matrix}\right] \\
+\end{matrix}\right]
+$$
 
-R =
-\left[\begin{matrix}
+$$
+R = \left[\begin{matrix}
 cos\theta & -sin\theta \\
 sin\theta & cos\theta \\
-\end{matrix}\right] \\
+\end{matrix}\right]
+$$
 
+$$
 t =
 \left[\begin{matrix}
 t_1 \\
 t_2 \\
-\end{matrix}\right] \\
+\end{matrix}\right]
 $$
 
 简单矩阵运算即可求得
